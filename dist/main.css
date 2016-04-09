@@ -7722,5 +7722,17 @@ fieldset[disabled] .navbar-transparent .btn-link:focus {
   padding-top: 60px !important;
   padding-bottom: 60px !important;
 }
+.block {
+  background-image: url("../images/shrubEBF.png");
+}
+iframe.mixcloud-widget {
+  float: center;
+  text-align: center;
+  top: 0;
+  opacity: .85;
+  display: block;
+  margin: 0 auto;
+  width: 1500px;
+}
 
 /*# sourceMappingURL=main.css.map */
