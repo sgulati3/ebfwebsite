@@ -1,1 +1,31 @@
 @import 'toolkit';
+@import 'calendar.less';
+
+body
+{
+  background-image: url("../images/shrubEBF.png");
+}
+.block
+{
+  text-align: center;
+  background-color:transparent;
+}
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align:center;
+}
