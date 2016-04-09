@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="285px" height="229px" viewBox="0 0 285 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>EBF text Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="EBF-text-Copy" sketch:type="MSArtboardGroup">
+            <g id="Logo" sketch:type="MSLayerGroup" transform="translate(-1.000000, 7.000000)">
+                <path d="M1.43297454,1.05819941 L267.365064,1.05819941" id="Line" sketch:type="MSShapeGroup"></path>
+                <path d="M0.942526016,205.56946 L267.26818,205.56946" id="Line-2" sketch:type="MSShapeGroup"></path>
+                <text id="ENCHANTED-" sketch:type="MSTextLayer" font-family="Montserrat" font-size="31.7192982" font-weight="normal" letter-spacing="4.39999819" fill="#FFFFFF">
+                    <tspan x="1.12795794" y="38.1163988">ENCHANTED </tspan>
+                    <tspan x="1.12795794" y="76.1163988">BROCCOLI</tspan>
+                    <tspan x="1.12795794" y="114.116399">FOREST</tspan>
+                    <tspan x="153.294965" y="114.116399" font-weight="260"></tspan>
+                    <tspan x="1.12795794" y="152.116399" font-weight="260">SOCIAL </tspan>
+                    <tspan x="1.12795794" y="190.116399" font-weight="260">CALENDAR</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
