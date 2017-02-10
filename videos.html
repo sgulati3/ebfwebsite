@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>🌳🌳🌳</title>
+ <link rel="stylesheet" href="dist/main.min.css">
+</head>
+<body class="">
+  <div class="nav-thing">
+    <a href="/">🌳</a>
+    <a href="/photos.html">Photos</a>
+    <a href="/mixes.html">Mixes</a>
+    <a href="/videos.html">Videos</a>
+    <a href="/calendar.html">Calendar</a>
+  </div>
+
+  <div class="block" style="background: url('images/veggies.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="video-landing-strip col-sm-12"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="dist/toolkit.min.js"></script>
+
+  <script>
+    jQuery(function ($) {
+      $.get('https://api.vimeo.com/users/39633887/videos?access_token=59b8f393b8bf8bb6ecb6fa3ad176eea0', function (resp) {
+        resp.data.forEach(function (vid) {
+          var embed = $(vid.embed.html)
+          embed.addClass('video-embed')
+          $('.video-landing-strip').append(embed)
+        })
+      })
+    })
+  </script>
+</body>
+</html>

@@ -1,6 +1,8 @@
 @import 'toolkit';
+@import 'mixes.less';
 @import 'photos.less';
 @import 'homepage.less';
+@import 'calendar.less';
 
 .nav-thing {
   background: #000;
@@ -22,13 +24,18 @@
   }
 }
 
+.video-embed {
+  width: 100%;
+  margin-bottom: @spacer*2;
+}
+
 @media screen and (min-width: @screen-sm-min) {
   .nav-thing {
     flex-direction: row;
 
     a {
       text-align: center;
-      padding: @spacer*4 0;
+      padding: @spacer*2 0;
     }
   }
 }
